@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        EditText editTextCelsius = findViewById(R.id.editTextCelsius);
+        TextView editTextCelsius = findViewById(R.id.editTextCelsius);
         Button buttonConver = findViewById(R.id.buttonConvert);
 
         buttonConver.setOnClickListener(v->{
