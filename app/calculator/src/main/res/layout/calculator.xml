@@ -6,6 +6,16 @@
     android:id="@+id/main">
 
     <TextView
+        android:id="@+id/textViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="end|center_vertical"
+        android:text="" />
+
+    <TextView
         android:id="@+id/textViewResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
