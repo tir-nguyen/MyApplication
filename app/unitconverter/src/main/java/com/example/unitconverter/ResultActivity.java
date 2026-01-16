@@ -22,9 +22,16 @@ public class ResultActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         Intent intent = getIntent();
+
         double farenheit = intent.getDoubleExtra("farenheit",0);
+
         TextView tvResult = findViewById(R.id.tvResult);
-        tvResult.setText(" " + farenheit);
+
+        tvResult.setText(""+ farenheit);
+
+
+
     }
 }
