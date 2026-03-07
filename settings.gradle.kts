@@ -23,3 +23,6 @@ rootProject.name = "My Application"
 include(":app")
 include(":app:unitconverter")
 include(":app:calculator")
+include(":app:note")
+include(":app:quiz")
+include(":app:vocab")

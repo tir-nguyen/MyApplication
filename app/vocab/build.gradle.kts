@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.example.vocab"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.vocab"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -34,8 +34,6 @@ android {
 }
 
 dependencies {
-    implementation("androidx.room:room-runtime:2.6.1")
-    annotationProcessor("androidx.room:room-compiler:2.6.1")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
